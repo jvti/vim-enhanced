@@ -5,7 +5,7 @@ This repository contains a custom `.vimrc` configuration file designed to enhanc
 
 ## Features
 
-- **Basic Settings**: 
+- **Basic Settings**:
   - Line numbers with relative numbering.
   - Incremental search with highlighted matches.
   - UTF-8 encoding for compatibility.
@@ -41,8 +41,8 @@ This configuration uses [vim-plug](https://github.com/junegunn/vim-plug) to mana
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/jvti/vim-enhanced.git
+cd vim-enhanced
 ```
 
 ### Step 2: Backup Your Existing Configuration
@@ -53,7 +53,7 @@ cp ~/.vimrc ~/.vimrc.backup
 
 ### Step 3: Copy the Configuration
 Copy the provided `.vimrc` file to your home directory:
-```bash
+```bashi
 cp .vimrc ~/.vimrc
 cp -r .skeletons ~
 ```
@@ -80,4 +80,3 @@ Feel free to modify the `.vimrc` file to suit your preferences. Key areas to con
 ## Contribution
 
 If you have suggestions or improvements, feel free to open an issue or submit a pull request.
-
